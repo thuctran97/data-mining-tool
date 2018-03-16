@@ -20,7 +20,7 @@ public class DataReader {
 				 String[] values = parsingText(line);
 				 data.addData(values);
 			}
-			data.determineTags();
+			data.determineDataTypes();
 			return data;
 		}
 	}
